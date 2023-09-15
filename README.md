@@ -17,12 +17,12 @@ Save the Bash script in a file with the .sh extension, for example, stunnel_setu
 
 Make the file executable with the following command:
 
-bash
 chmod +x stunnel.sh
 
 Run the script:
-bash
+
 ./stunnel.sh
+
 Your script will start executing and, with the help of prompts and inputs it requests from you, will create the necessary secure tunnels.
 
 As a recommendation, make sure to use this script in development and testing environments, and enter input details accurately to ensure the proper creation of secure tunnels and troubleshooting. Additionally, avoid using it in a production environment to connect to critical servers and make changes there to prevent any issues in a production environment.
