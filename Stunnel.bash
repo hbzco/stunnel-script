@@ -64,7 +64,7 @@ Restart=always
 PrivateTmp=false " > /usr/lib/systemd/system/stunnel.service
 
         sudo systemctl start stunnel.service
-        sudo systemctl enable stunnel.service
+        sudo systemctl enable stunnel4.service
         installing
         echo "Create Stunnel $Name With $inbound port From IranVps  With Port $forward_port . :)"
         sleep 3
@@ -130,7 +130,7 @@ Restart=always
 PrivateTmp=false " > /usr/lib/systemd/system/stunnel.service
 
         sudo systemctl start stunnel.service
-        sudo systemctl enable stunnel.service
+        sudo systemctl enable stunnel4.service
         installing
         echo "Create Port Forwarder $Name With $inbound port To $hostname_khareji Server With Port $port_connect . :)"
         sleep 3
