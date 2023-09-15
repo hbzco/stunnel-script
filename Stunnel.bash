@@ -162,7 +162,8 @@ EOF
 display_menu() {
     clear
     echo -e "\e[1;32m********************************************\e[0m"
-    echo -e "\e[1;32m          Stunnel Configuration Menu          \e[0m"
+    echo -e "\e[1;32m*         Stunnel Configuration Menu       *\e[0m"
+     echo -e "\e[1;32m*                  HBZ_CO                 *\e[0m"
     echo -e "\e[1;32m********************************************\e[0m"
     echo -e "1) \e[1;36mInstall and create port forwarder to external server\e[0m"
     echo -e "2) \e[1;36mAdd IranVPS port to forward to external server\e[0m"
