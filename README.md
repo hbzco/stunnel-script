@@ -1,4 +1,4 @@
-# stunnel-script
+# Stunnel-Script
 
 Stunnel (Secure Tunnel) is an open-source software designed for establishing secure (SSL/TLS) connections between two servers or two clients. The primary uses of Stunnel include:
 
